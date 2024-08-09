@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Encriptador de texto</title>
 </head>
 <body>
-    <h1>Inicio</h1>
+    <header>
+
+    </header>
+    <main>
+        <h1>Ingrese el texto aquí</h1>
+        <input type="text" id="texto" name="texto" required minlength="1" maxlength="20" size="10" />
+        <p>Solo letras minúsculas y sin acentos</p>
+            <div class="presentacion_botones">
+                <button onclick="encriptar();" class="presentacion_botones_encriptar">Encriptar</button>
+                <button onclick="desencriptar();" class="presentacion_botones_desencriptar">Desencriptar</button>
+                
+            </div>    
+        <p>Ningún mensaje fue encontrado</p>
+        <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+        <a>Copiar</a>
+    </main>
+    <footer>
+
+    </footer>
+    <script  src="encriptador.js">
+
+    </script>
 </body>
 </html>
